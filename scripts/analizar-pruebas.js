@@ -22,7 +22,7 @@ const resultado = spawnSync(
     '--coverageReporters=text',
     '--coverageReporters=json',
     '--coverageReporters=json-summary',
-    '--coverageReporters=html'
+    '--coverageReporters=html',
   ],
   { cwd: raiz, stdio: 'inherit' }
 );
