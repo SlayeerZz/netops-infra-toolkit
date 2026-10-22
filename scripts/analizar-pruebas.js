@@ -23,6 +23,7 @@ const resultado = spawnSync(
     '--coverageReporters=json',
     '--coverageReporters=json-summary',
     '--coverageReporters=html',
+    '--coverageReporters=lcov'
   ],
   { cwd: raiz, stdio: 'inherit' }
 );
