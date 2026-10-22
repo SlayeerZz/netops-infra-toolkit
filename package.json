@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "analizar": "node scripts/analizar-pruebas.js"
   },
   "keywords": ["infraestructura", "iac", "validaciones"],
   "license": "MIT",
